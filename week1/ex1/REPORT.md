@@ -64,8 +64,8 @@ Phải trả lời được: `HAL_IncTick()` chạy ở đâu, `configKERNEL_INT
 - Hai hàm delay khác nhau như sau:
 | Hàm | Hoạt động |
 |---|---|
-| HAL_Delay(ms) |Chờ bằng cách liên tục kiểm tra tick HAL. Nếu gọi trong task, hàm không chủ động đưa task sang Blocked.|
-| vTaskDelay(ticks) |Đưa task sang Blocked để chờ tick FreeRTOS. Trong lúc đó, CPU có thể chạy task khác, chẳng hạn Idle task.|
+| HAL_Delay(ms) | Chờ bằng cách liên tục kiểm tra tick HAL. Nếu gọi trong task, hàm không chủ động đưa task sang Blocked. |
+| vTaskDelay(ticks) | Đưa task sang Blocked để chờ tick FreeRTOS. Trong lúc đó, CPU có thể chạy task khác, chẳng hạn Idle task. |
 
 
 ## 4. Lệch so với dự đoán
