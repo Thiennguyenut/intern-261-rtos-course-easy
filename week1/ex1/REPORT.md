@@ -62,6 +62,7 @@ Phải trả lời được: `HAL_IncTick()` chạy ở đâu, `configKERNEL_INT
 - Chuyển HAL timebase sang TIM4 giúp HAL có nguồn tick riêng và có thể cấu hình priority riêng. Tick HAL cũng không phụ thuộc vào việc thay đổi tick rate của FreeRTOS.
 
 - Hai hàm delay khác nhau như sau:
+
 | Hàm | Hoạt động |
 |---|---|
 | HAL_Delay(ms) | Chờ bằng cách liên tục kiểm tra tick HAL. Nếu gọi trong task, hàm không chủ động đưa task sang Blocked. |
