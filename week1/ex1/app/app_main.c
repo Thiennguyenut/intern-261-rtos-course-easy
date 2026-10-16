@@ -15,6 +15,11 @@
 /* TODO 1: build the GPIO port/pin pair for PA<BLINK_GPIO_PIN>.
  *         Hint: GPIO_PIN_0 .. GPIO_PIN_15 are bit masks, not indices. */
 
+#define BRINGUP_GPIO_PORT GPIOA
+#define BRINGUP_GPIO_PIN  ((uint16_t)(1U << BLINK_GPIO_PIN))
+
+static volatile UBaseType_t bringup_stack_hwm_words;
+
 /* TODO 2: implement the bring-up task.
  *         - toggle the pin
  *         - block for BLINK_PERIOD_MS using vTaskDelay()
@@ -25,6 +30,10 @@ static void bringup_task(void *argument)
 
     for (;;) {
         /* TODO */
+        HAL_GPIO_TogglePin(BRINGUP_GPIO_PORT, BRINGUP_GPIO_PIN);
+        vTaskDelay(pdMS_TO_TICKS(BLINK_PERIOD_MS / 2U));
+
+        bringup_stack_hwm_words = uxTaskGetStackHighWaterMark(NULL);
     }
 }
 
@@ -33,7 +42,20 @@ void app_main(void)
     /* TODO 3: create bringup_task with stack BRINGUP_STACK_WORDS and a priority
      *         you can justify. Check the return value — do not ignore it. */
 
+    BaseType_t result = xTaskCreate(
+        bringup_task,
+        "bring_up_task",
+        BRINGUP_STACK_WORDS,
+        NULL,
+        tskIDLE_PRIORITY + 1U,
+        NULL
+    );
+
+    configASSERT(result == pdPASS);
+
     /* TODO 4: start the scheduler. */
+
+    vTaskStartScheduler();
 
     /* Reaching this point means the scheduler returned: out of heap, or the
      * handlers in TODO 5 were never mapped. Trap here so it is visible. */
@@ -45,3 +67,16 @@ void app_main(void)
  *         which three exception handlers does the ARM_CM3 port take over,
  *         where are they currently defined in template/, and what did the
  *         linker say before you resolved the clash? */
+void vApplicationMallocFailedHook(void)
+{
+    configASSERT(0);
+}
+
+void vApplicationStackOverflowHook(TaskHandle_t xTask,
+                                  char *pcTaskName)
+{
+    (void)xTask;
+    (void)pcTaskName;
+
+    configASSERT(0);
+}
