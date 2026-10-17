@@ -9,6 +9,9 @@ void dwt_init(void)
     /* TODO 1: enable the trace subsystem (CoreDebug DEMCR, TRCENA bit),
      *         zero DWT->CYCCNT, then enable CYCCNTENA.
      *         PM0056 does not document DWT; see the ARMv7-M ARM, C1.8. */
+    CoreDebug->DEMCR |= CoreDebug_DEMCR_TRCENA_Msk;
+    DWT->CYCCNT = 0U;
+    DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
 }
 
 void dwt_busy_wait_us(uint32_t microseconds)
@@ -17,5 +20,12 @@ void dwt_busy_wait_us(uint32_t microseconds)
      *         SystemCoreClock is 72000000. Handle CYCCNT wrap-around correctly
      *         — unsigned subtraction, not a comparison of absolute values.
      *         Explain in REPORT.md why the naive comparison breaks every ~59 s. */
+    const uint32_t cycles_per_us = SystemCoreClock / 1000000U; 
+    const uint32_t cycles_to_wait = microseconds * cycles_per_us;
+    const uint32_t start = DWT->CYCCNT;
+
+    while ((uint32_t)(DWT->CYCCNT - start) < cycles_to_wait) {
+        /* Busy_wait*/
+    }
     (void)microseconds;
 }
