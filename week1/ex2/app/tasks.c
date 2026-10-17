@@ -33,6 +33,7 @@ void task_b(void *argument)
     (void)argument;
     for (;;) {
         run_task(GPIOA, TASK_B_PIN, TASK_B_WORK_US);
+        //vTaskDelay(1);
     }
 }
 
@@ -41,5 +42,6 @@ void task_c(void *argument)
     (void)argument;
     for (;;) {
         run_task(GPIOA, TASK_C_PIN, TASK_C_WORK_US);
+        //vTaskDelay(1);
     }
 }
