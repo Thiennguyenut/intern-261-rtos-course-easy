@@ -27,5 +27,4 @@ void dwt_busy_wait_us(uint32_t microseconds)
     while ((uint32_t)(DWT->CYCCNT - start) < cycles_to_wait) {
         /* Busy_wait*/
     }
-    (void)microseconds;
 }
