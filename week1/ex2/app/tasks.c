@@ -13,11 +13,11 @@
 
 /* TODO: one helper that takes a port/pin and a work time, then three thin
  *       wrappers. Do not copy-paste the body three times. */
-static void run_task(GPIO_TypeDef *port, uint16_t pin, uint32_t work_us)
+static void run_task(GPIO_TypeDef *GPIOx, uint16_t pin, uint32_t work_us)
 {
-    HAL_GPIO_WritePin(port, (uint16_t)(1U << pin), GPIO_PIN_SET);
+    HAL_GPIO_WritePin(GPIOx, (uint16_t)(1U << pin), GPIO_PIN_SET);
     dwt_busy_wait_us(work_us);
-    HAL_GPIO_WritePin(port, (uint16_t)(1U << pin), GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(GPIOx, (uint16_t)(1U << pin), GPIO_PIN_RESET);
 }
 
 void task_a(void *argument)
