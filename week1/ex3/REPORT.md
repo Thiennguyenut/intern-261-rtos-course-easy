@@ -17,8 +17,7 @@
 - CSV gốc:
     - [captures/vTaskDelay_1000Hz.csv](captures/vTaskDelay_1000Hz.csv) (có commit kèm)
     - [captures/xTaskDelayUntil_1000Hz.csv](captures/xTaskDelayUntil_1000Hz.csv) (có commit kèm)
-- Ảnh: ![](ex3_cfg1.png) ![](ex3_cfg2.png) `![](ex3_cfg3.png)` `![](ex3_cfg4.png)`
-
+- Ảnh: ![](ex3_cfg1.png) ![](ex3_cfg2.png) 
 ## 2. Tại sao `vTaskDelay` bị drift
 Công thức drift theo `PERIOD_MS` và `WORK_JITTER_US` của **bạn**, rồi so với số đo:
 - Công thức drift: Drift = SAMPLE_COUNT × (1000 + 2(WORK_JITTER_US - 2000 + 1))/(WORK_JITTER_US + 1)
@@ -29,7 +28,7 @@ Công thức drift theo `PERIOD_MS` và `WORK_JITTER_US` của **bạn**, rồi 
 | Drift tổng (ms) | +600.416 | +582.332 | -18.084 |
 
 ## 3. Tại sao tick 100 Hz sai nhiều hơn
-`PERIOD_MS` = ____ ; một tick = ____ ms. Chứng minh bằng số đo, không bằng lý thuyết:
+`PERIOD_MS` = 7 ms ; một tick = 10 ms. Chứng minh bằng số đo, không bằng lý thuyết:
 **Trả lời:**
 - Theo xác nhận của anh Triều, bài này chỉ khảo sát `vTaskDelay` và `xTaskDelayUntil` ở tick rate **1000 Hz**. Nhưng em xin được dự đoán như sau: Với 7 ms ở tick rate là 100 Hz chuyển thành **0 tick**. `vTaskDelay(0)` yêu cầu lập lịch lại và không block chờ, còn `xTaskDelayUntil` với increment bằng 0 vi phạm assert. 
 
