@@ -25,3 +25,9 @@ CMakeUserPresets.json
 
 # LibreOffice lock files
 .~lock.*#
+
+#Template from STM32CubeMX
+template
+
+#FreeRTOS API
+third_party
