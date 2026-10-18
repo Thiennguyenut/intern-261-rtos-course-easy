@@ -17,7 +17,7 @@
 - CSV gốc:
     - [captures/vTaskDelay_1000Hz.csv](captures/vTaskDelay_1000Hz.csv) (có commit kèm)
     - [captures/xTaskDelayUntil_1000Hz.csv](captures/xTaskDelayUntil_1000Hz.csv) (có commit kèm)
-- Ảnh: ![](ex3_cfg1.png) ![](ex3_cfg2.png) 
+- Ảnh: ![](image/ex3_cfg1.png) ![](image/ex3_cfg2.png) 
 ## 2. Tại sao `vTaskDelay` bị drift
 Công thức drift theo `PERIOD_MS` và `WORK_JITTER_US` của **bạn**, rồi so với số đo:
 - Công thức drift: Drift = SAMPLE_COUNT × (1000 + 2(WORK_JITTER_US - 2000 + 1))/(WORK_JITTER_US + 1)
