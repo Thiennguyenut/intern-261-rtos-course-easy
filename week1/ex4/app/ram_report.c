@@ -14,6 +14,7 @@
 
 extern UART_HandleTypeDef huart1;
 
+extern TaskHandle_t extra_task_handle;
 extern TaskHandle_t dyn_task_handle;
 extern TaskHandle_t stat_task_handle;
 extern TaskHandle_t report_task_handle;
@@ -94,9 +95,11 @@ void ram_report_task(void *argument)
 
         print_hwm("dyn_task", dyn_task_handle);
         print_hwm("stat_task", stat_task_handle);
+        print_hwm("extra_task", extra_task_handle);
         print_hwm("ram_report", report_task_handle);
         print_hwm("idle", idle_handle);
         print_hwm("timer", timer_handle);
+        
 
         vTaskDelay(pdMS_TO_TICKS(2000));
     }
