@@ -26,7 +26,8 @@ void filter_task(void *argument);
 void uart_task(void *argument);
 
 /* Periodic queue-depth sampler used to produce the fill-over-time plot.
- * TODO: decide and document where this stores/sends its samples. */
+ * TODO: decide and document where this stores/sends its samples.
+ * Phương án: lưu vào RAM với mỗi bản ghi 5 ms, 1000 bản ghi và xuất qua debugger. */
 void depth_logger_task(void *argument);
 
 #endif /* PIPELINE_H */
