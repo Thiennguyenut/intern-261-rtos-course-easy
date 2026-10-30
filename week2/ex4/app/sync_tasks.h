@@ -2,6 +2,10 @@
 #define SYNC_TASKS_H
 
 #include <stdint.h>
+#include "params.h"
+
+#define EX4_EXTRA_PRODUCERS 0U
+#define EX4_PRODUCER_COUNT (EVENT_BIT_COUNT + EX4_EXTRA_PRODUCERS)
 
 /* Bit i of the event group corresponds to producer_i.
  * producer_0 is the one swapped to task notification in step 4 — guard it
