@@ -31,3 +31,4 @@ template
 
 #FreeRTOS API
 third_party
+FreeRTOSConfig.h
