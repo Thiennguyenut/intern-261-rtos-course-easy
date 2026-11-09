@@ -7,6 +7,8 @@
 #include "main.h"
 #include "params.h"
 #include "exti_button.h"
+#define ACK_GPIO_PIN   ((uint16_t)(1U << ACK_PIN))
+#define EXTI_GPIO_PIN  ((uint16_t)(1U << EXTI_PIN))
 
 static TaskHandle_t s_ack_task_handle;
 
@@ -20,18 +22,30 @@ void exti_button_init(void)
      *         configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY. Run step 4 of the
      *         README with this wrong value first and capture the configASSERT.
      *         Only after that, set it to ISR_NVIC_PRIO and HAL_NVIC_EnableIRQ. */
+    
+    HAL_NVIC_SetPriority(EXTI15_10_IRQn, ISR_NVIC_PRIO, 0U);
+    HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
+
 }
 
 void exti_button_isr_handler(void)
 {
+    if (HAL_GPIO_ReadPin(GPIOB, EXTI_GPIO_PIN) != GPIO_PIN_RESET) {
+        return;
+    }
     BaseType_t xHigherPriorityTaskWoken = pdFALSE;
 
-    /* TODO 3: vTaskNotifyGiveFromISR(s_ack_task_handle, &xHigherPriorityTaskWoken).
-     *
-     * TODO 4: portYIELD_FROM_ISR(xHigherPriorityTaskWoken) -- the README asks
+    /* TODO 3: vTaskNotifyGiveFromISR(s_ack_task_handle, &xHigherPriorityTaskWoken).*/
+    
+    if (s_ack_task_handle != NULL) {
+        vTaskNotifyGiveFromISR(s_ack_task_handle, &xHigherPriorityTaskWoken);
+    }
+    
+    /* TODO 4: portYIELD_FROM_ISR(xHigherPriorityTaskWoken) -- the README asks
      *         you to temporarily remove exactly this line in step 6 to measure
      *         the latency penalty. Do NOT remove it in the version you submit. */
-    (void)xHigherPriorityTaskWoken;
+
+    portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
 }
 
 void ack_task(void *argument)
@@ -41,8 +55,10 @@ void ack_task(void *argument)
 
     for (;;) {
         /* TODO 5: ulTaskNotifyTake(pdTRUE, portMAX_DELAY). */
+        ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
 
         /* TODO 6: toggle PA<ACK_PIN> here, nothing before it in this loop body --
          *         any extra work here inflates the latency you are measuring. */
+        HAL_GPIO_TogglePin(GPIOA, ACK_GPIO_PIN);
     }
 }
