@@ -21,3 +21,16 @@ void app_main(void)
     for (;;) {
     }
 }
+
+void vApplicationMallocFailedHook(void)
+{
+    configASSERT(0);
+}
+
+void vApplicationStackOverflowHook(TaskHandle_t task, char *task_name)
+{
+    (void)task;
+    (void)task_name;
+
+    configASSERT(0);
+}
