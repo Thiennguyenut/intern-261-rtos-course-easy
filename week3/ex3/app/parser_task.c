@@ -8,6 +8,7 @@
  */
 #include <stdint.h>
 #include <string.h>
+#include <stdbool.h>
 
 #include "FreeRTOS.h"
 #include "task.h"
@@ -21,6 +22,10 @@
 static TaskHandle_t s_demo_task_handle;
 static volatile uint32_t s_demo_period_ms = 200;
 
+// test gui lien tuc
+static volatile uint32_t s_test_periods[100];
+static volatile uint32_t s_test_count;
+
 static void apply_command(const char *cmd, size_t len)
 {
     /* TODO 1: switch on cmd[0]: 'P' -> parse decimal into s_demo_period_ms
@@ -28,8 +33,55 @@ static void apply_command(const char *cmd, size_t len)
      *         'S' -> parse decimal, vTaskPrioritySet(s_demo_task_handle, n);
      *         'T' -> cmd[1]=='0' ? vTaskSuspend(...) : vTaskResume(...).
      *         Ignore anything malformed -- do not crash on bad input. */
-    (void)cmd;
-    (void)len;
+    if (len < 2U) {
+        return;
+    }
+
+    uint32_t value = 0U;
+    for (size_t i = 1U; i < len; i++) {
+        if (cmd[i] < '0' || cmd[i] > '9') {
+            return;
+        }
+
+        const uint32_t digit = (uint32_t)(cmd[i] - '0');
+        if (value > (UINT32_MAX - digit) / 10U) {
+            return;
+        }
+        value = value * 10U + digit;
+    }
+
+    switch (cmd[0]) {
+    case 'P':
+        if (pdMS_TO_TICKS(value) > 0U) {
+            s_demo_period_ms = value;
+        }
+        // test gui lien tuc
+        if (s_test_count < 100U) {
+            s_test_periods[s_test_count] = value;
+        }
+        s_test_count++;
+        
+        break;
+
+    case 'S':
+        if (s_demo_task_handle != NULL && value < configMAX_PRIORITIES) {
+            vTaskPrioritySet(s_demo_task_handle, (UBaseType_t)value);
+        }
+        break;
+
+    case 'T':
+        if (s_demo_task_handle != NULL && len == 2U) {
+            if (value == 0U) {
+                vTaskSuspend(s_demo_task_handle);
+            } else if (value == 1U) {
+                vTaskResume(s_demo_task_handle);
+            }
+        }
+        break;
+
+    default:
+        break;
+    }
 }
 
 void parser_task(void *argument)
@@ -42,15 +94,30 @@ void parser_task(void *argument)
         uint8_t byte;
 
         /* TODO 2: xStreamBufferReceive(rx_stream, &byte, 1, portMAX_DELAY). */
+        if (xStreamBufferReceive(rx_stream, &byte, 1U, portMAX_DELAY) != 1U) {
+            continue;
+        }
+
 
         /* TODO 3: if byte == '\r', call apply_command(cmd, idx), idx = 0.
          *         else if idx < MAX_CMD_LEN - 1, cmd[idx++] = byte.
          *         else (overflow): discard the whole partial command, idx = 0
          *         -- explain in REPORT.md why silently truncating instead
          *         would be worse. */
-        (void)byte;
-        (void)cmd;
-        (void)idx;
+        if (byte == '\r') {
+            apply_command(cmd, idx);
+            idx = 0U;
+        } 
+        else if (idx < MAX_CMD_LEN - 1U) {
+            cmd[idx++] = (char)byte;
+        } 
+        else {
+            idx = 0U;
+
+            /* Discard the rest of the overlong command. */
+            while (xStreamBufferReceive(rx_stream, &byte, 1U, portMAX_DELAY) != 1U ||byte != '\r') {
+            }
+        }
     }
 }
 
@@ -61,6 +128,7 @@ void demo_task(void *argument)
 
     for (;;) {
         /* TODO 4: toggle a GPIO pin here. */
+        HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_8);
         vTaskDelay(pdMS_TO_TICKS(s_demo_period_ms));
     }
 }

@@ -18,6 +18,16 @@ void app_main(void)
      *       arrive at RX_BAUD -- justify the number in REPORT.md with the
      *       byte time you computed. */
 
+    if (xTaskCreate(demo_task, "demo", configMINIMAL_STACK_SIZE, NULL, 1U, NULL) != pdPASS) {
+        Error_Handler();
+        return;
+    }
+
+    if (xTaskCreate(parser_task, "parser", configMINIMAL_STACK_SIZE, NULL, configMAX_PRIORITIES - 1U, NULL) != pdPASS) {
+        Error_Handler();
+        return;
+    }
+
     vTaskStartScheduler();
 
     for (;;) {
