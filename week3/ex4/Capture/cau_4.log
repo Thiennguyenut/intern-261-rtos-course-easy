@@ -1,0 +1,661 @@
+stats          	129639		34%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598568
+IDLE state=1 rt=0
+load state=2 rt=289482
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129461		34%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144002		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598321
+IDLE state=1 rt=0
+load state=2 rt=289487
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129645		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	143991		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598589
+IDLE state=1 rt=0
+load state=2 rt=289478
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129461		34%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144002		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598321
+IDLE state=1 rt=0
+load state=2 rt=289487
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129367		34%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144002		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598295
+IDLE state=1 rt=0
+load state=2 rt=289483
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129367		34%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144002		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598295
+IDLE state=1 rt=0
+load state=2 rt=289483
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129367		34%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144002		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598295
+IDLE state=1 rt=0
+load state=2 rt=289483
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129728		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144002		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598667
+IDLE state=1 rt=0
+load state=2 rt=289484
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129461		34%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144002		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598321
+IDLE state=1 rt=0
+load state=2 rt=289487
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129367		34%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144002		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598295
+IDLE state=1 rt=0
+load state=2 rt=289483
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129728		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144002		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598667
+IDLE state=1 rt=0
+load state=2 rt=289484
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129640		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144001		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598643
+IDLE state=1 rt=0
+load state=2 rt=289481
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta
+WDT MISS t=100 bits=0x0c
+WDT MISS t=202 bits=0x0c
+
+*** BOOT: reset by IWDG ***
+
+==== t=2 ms ====
+stats          	129728		35%
+IDLE           	0		<1%
+alpha          	1347		<1%
+beta           	1329		<1%
+load           	144002		38%
+hb             	1526		<1%
+sup            	1280		<1%
+Tmr Svc        	2222		<1%
+stats state=0 rt=1598667
+IDLE state=1 rt=0
+load state=2 rt=289484
+hb state=2 rt=1526
+sup state=2 rt=1280
+Tmr Svc state=2 rt=2222
+alpha state=2 rt=3786
+beta state=2 rt=3768
+A held by alpha, B held by beta

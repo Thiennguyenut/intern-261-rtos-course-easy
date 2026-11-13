@@ -1,0 +1,545 @@
+==== t=528 ms ====
+stats          	2205067		5%
+IDLE           	35738197		93%
+beta           	125391		<1%
+alpha          	88589		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=3188955
+IDLE state=1 rt=35738197
+alpha state=2 rt=91145
+beta state=2 rt=131349
+Tmr Svc state=2 rt=1972
+A held by beta, B held by none
+
+==== t=1058 ms ====
+stats          	4403459		5%
+IDLE           	71485163		93%
+alpha          	178654		<1%
+beta           	256480		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=5395018
+IDLE state=1 rt=71485163
+alpha state=2 rt=178654
+beta state=2 rt=256480
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=1588 ms ====
+stats          	6616353		5%
+IDLE           	107219631		93%
+alpha          	266162		<1%
+beta           	381616		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=7612745
+IDLE state=1 rt=107219631
+beta state=2 rt=381616
+alpha state=2 rt=267503
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=2119 ms ====
+stats          	8841593		5%
+IDLE           	143013656		93%
+alpha          	353672		<1%
+beta           	506752		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=9831465
+IDLE state=1 rt=143013656
+beta state=2 rt=510414
+alpha state=2 rt=357838
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=2650 ms ====
+stats          	11068406		5%
+IDLE           	178806264		93%
+beta           	631888		<1%
+alpha          	442521		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=12065249
+IDLE state=1 rt=178806264
+alpha state=2 rt=445346
+beta state=2 rt=637846
+Tmr Svc state=2 rt=1972
+A held by alpha, B held by none
+
+==== t=3181 ms ====
+stats          	13306990		5%
+IDLE           	214578608		93%
+beta           	760681		<1%
+alpha          	532855		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=14308988
+IDLE state=1 rt=214578608
+alpha state=2 rt=532855
+beta state=2 rt=762977
+Tmr Svc state=2 rt=1972
+A held by beta, B held by none
+
+==== t=3712 ms ====
+stats          	15549124		5%
+IDLE           	250354248		93%
+alpha          	620364		<1%
+beta           	888113		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=16551854
+IDLE state=1 rt=250354248
+beta state=2 rt=888113
+alpha state=2 rt=621705
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=4243 ms ====
+stats          	17787065		5%
+IDLE           	286135575		93%
+alpha          	707873		<1%
+beta           	1013249		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=18790160
+IDLE state=1 rt=286135575
+beta state=2 rt=1016911
+alpha state=2 rt=712039
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=4774 ms ====
+stats          	20038527		5%
+IDLE           	321902020		93%
+beta           	1138385		<1%
+alpha          	796723		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=21039971
+IDLE state=1 rt=321902020
+alpha state=2 rt=799548
+beta state=2 rt=1144343
+Tmr Svc state=2 rt=1972
+A held by alpha, B held by none
+
+==== t=5305 ms ====
+stats          	22288119		5%
+IDLE           	357671806		93%
+beta           	1267183		<1%
+alpha          	887062		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=23296287
+IDLE state=1 rt=357671806
+alpha state=2 rt=887062
+beta state=2 rt=1269479
+Tmr Svc state=2 rt=1972
+A held by beta, B held by none
+
+==== t=5836 ms ====
+stats          	24537071		5%
+IDLE           	393432873		93%
+alpha          	974570		<1%
+beta           	1394615		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=25546218
+IDLE state=1 rt=393432873
+beta state=2 rt=1394615
+alpha state=2 rt=975911
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=6367 ms ====
+stats          	26787140		5%
+IDLE           	429202879		93%
+alpha          	1062079		<1%
+beta           	1519751		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=27795211
+IDLE state=1 rt=429202879
+beta state=2 rt=1523413
+alpha state=2 rt=1066246
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=6898 ms ====
+stats          	29046832		5%
+IDLE           	464961103		93%
+beta           	1644887		<1%
+alpha          	1150930		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=30053981
+IDLE state=1 rt=464961103
+alpha state=2 rt=1153755
+beta state=2 rt=1650845
+Tmr Svc state=2 rt=1972
+A held by alpha, B held by none
+
+==== t=7429 ms ====
+stats          	31308669		5%
+IDLE           	500713197		93%
+beta           	1773685		<1%
+alpha          	1241269		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=32322339
+IDLE state=1 rt=500713197
+alpha state=2 rt=1241269
+beta state=2 rt=1775981
+Tmr Svc state=2 rt=1972
+A held by beta, B held by none
+
+==== t=7960 ms ====
+stats          	33567520		5%
+IDLE           	536472992		93%
+alpha          	1328779		<1%
+beta           	1901112		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=34582286
+IDLE state=1 rt=536472992
+beta state=2 rt=1901112
+alpha state=2 rt=1330120
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=8491 ms ====
+stats          	35829374		5%
+IDLE           	572227224		93%
+alpha          	1416288		<1%
+beta           	2026248		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=36839611
+IDLE state=1 rt=572227224
+beta state=2 rt=2029910
+alpha state=2 rt=1420454
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=9022 ms ====
+stats          	38092573		5%
+IDLE           	607984103		93%
+alpha          	1503797		<1%
+beta           	2151384		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=39100281
+IDLE state=1 rt=607984103
+alpha state=2 rt=1507963
+beta state=2 rt=2157342
+Tmr Svc state=2 rt=1972
+A held by alpha, B held by none
+
+==== t=9553 ms ====
+stats          	40357491		5%
+IDLE           	643734176		93%
+beta           	2280182		<1%
+alpha          	1595477		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=41371246
+IDLE state=1 rt=643734176
+alpha state=2 rt=1595477
+beta state=2 rt=2282478
+Tmr Svc state=2 rt=1972
+A held by beta, B held by none
+
+==== t=10084 ms ====
+stats          	42621589		5%
+IDLE           	679489399		93%
+alpha          	1682986		<1%
+beta           	2407609		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=43636467
+IDLE state=1 rt=679489399
+beta state=2 rt=2407609
+alpha state=2 rt=1684327
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=10615 ms ====
+stats          	44889826		5%
+IDLE           	715240400		93%
+alpha          	1770495		<1%
+beta           	2532745		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=45898165
+IDLE state=1 rt=715240400
+beta state=2 rt=2536407
+alpha state=2 rt=1774661
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=11146 ms ====
+stats          	47158007		5%
+IDLE           	750992119		93%
+alpha          	1858004		<1%
+beta           	2657881		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=48163990
+IDLE state=1 rt=750992119
+alpha state=2 rt=1862171
+beta state=2 rt=2663839
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=11677 ms ====
+stats          	49423947		5%
+IDLE           	786744002		93%
+beta           	2783017		<1%
+alpha          	1946860		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=50438222
+IDLE state=1 rt=786744002
+alpha state=2 rt=1949677
+beta state=2 rt=2788975
+Tmr Svc state=2 rt=1972
+A held by beta, B held by none
+
+==== t=12208 ms ====
+stats          	51690614		5%
+IDLE           	822487827		93%
+alpha          	2037186		<1%
+beta           	2914106		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=52706834
+IDLE state=1 rt=822487827
+alpha state=2 rt=2037186
+beta state=2 rt=2914106
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=12739 ms ====
+stats          	53967757		5%
+IDLE           	858229956		93%
+alpha          	2124696		<1%
+beta           	3039242		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=54976038
+IDLE state=1 rt=858229956
+beta state=2 rt=3042904
+alpha state=2 rt=2128862
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=13270 ms ====
+stats          	56235276		5%
+IDLE           	893981607		93%
+alpha          	2212205		<1%
+beta           	3164378		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=57242626
+IDLE state=1 rt=893981607
+alpha state=2 rt=2216371
+beta state=2 rt=3170336
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=13801 ms ====
+stats          	58503325		5%
+IDLE           	929732115		93%
+beta           	3289514		<1%
+alpha          	2301059		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=59510670
+IDLE state=1 rt=929732115
+alpha state=2 rt=2303884
+beta state=2 rt=3295472
+Tmr Svc state=2 rt=1972
+A held by alpha, B held by none
+
+==== t=14332 ms ====
+stats          	60771006		5%
+IDLE           	965477122		93%
+beta           	3418307		<1%
+alpha          	2391393		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=61787449
+IDLE state=1 rt=965477122
+alpha state=2 rt=2391393
+beta state=2 rt=3420603
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=14863 ms ====
+stats          	63039083		5%
+IDLE           	1001226010		93%
+alpha          	2478902		<1%
+beta           	3545739		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=64060133
+IDLE state=1 rt=1001226010
+beta state=2 rt=3545739
+alpha state=2 rt=2480243
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=15394 ms ====
+stats          	65327158		5%
+IDLE           	1036957476		93%
+alpha          	2566142		<1%
+beta           	3670875		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=66339409
+IDLE state=1 rt=1036957476
+alpha state=2 rt=2570308
+beta state=2 rt=3676833
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=15925 ms ====
+stats          	67605565		5%
+IDLE           	1072698780		93%
+beta           	3796011		<1%
+alpha          	2654992		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=68621076
+IDLE state=1 rt=1072698780
+alpha state=2 rt=2657817
+beta state=2 rt=3801969
+Tmr Svc state=2 rt=1972
+A held by alpha, B held by none
+
+==== t=16456 ms ====
+stats          	69887828		5%
+IDLE           	1108428056		93%
+beta           	3924804		<1%
+alpha          	2745327		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=70907954
+IDLE state=1 rt=1108428056
+alpha state=2 rt=2745327
+beta state=2 rt=3927100
+Tmr Svc state=2 rt=1972
+A held by beta, B held by none
+
+==== t=16987 ms ====
+stats          	72168451		5%
+IDLE           	1144164304		93%
+alpha          	2832837		<1%
+beta           	4052236		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=73189567
+IDLE state=1 rt=1144164304
+beta state=2 rt=4052236
+alpha state=2 rt=2834178
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=17518 ms ====
+stats          	74448262		5%
+IDLE           	1179903763		93%
+alpha          	2920346		<1%
+beta           	4177372		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=75464124
+IDLE state=1 rt=1179903763
+beta state=2 rt=4181034
+alpha state=2 rt=2924513
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=18049 ms ====
+stats          	76731544		5%
+IDLE           	1215638384		93%
+beta           	4302508		<1%
+alpha          	3009197		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=77745787
+IDLE state=1 rt=1215638384
+alpha state=2 rt=3012023
+beta state=2 rt=4308466
+Tmr Svc state=2 rt=1972
+A held by alpha, B held by none
+
+==== t=18580 ms ====
+stats          	79011299		5%
+IDLE           	1251378197		93%
+beta           	4431306		<1%
+alpha          	3099538		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=80031430
+IDLE state=1 rt=1251378197
+alpha state=2 rt=3099538
+beta state=2 rt=4433602
+Tmr Svc state=2 rt=1972
+A held by beta, B held by none
+
+==== t=19111 ms ====
+stats          	81289690		5%
+IDLE           	1287110540		93%
+alpha          	3187047		<1%
+beta           	4558738		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=82310725
+IDLE state=1 rt=1287110540
+beta state=2 rt=4558738
+alpha state=2 rt=3188388
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=19642 ms ====
+stats          	83569494		5%
+IDLE           	1322849905		93%
+alpha          	3274555		<1%
+beta           	4683874		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=84584101
+IDLE state=1 rt=1322849905
+beta state=2 rt=4687536
+alpha state=2 rt=3278721
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=20173 ms ====
+stats          	85847885		5%
+IDLE           	1358589430		93%
+beta           	4809010		<1%
+alpha          	3363405		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=86861499
+IDLE state=1 rt=1358589430
+alpha state=2 rt=3366230
+beta state=2 rt=4814968
+Tmr Svc state=2 rt=1972
+A held by alpha, B held by none
+
+==== t=20704 ms ====
+stats          	88129161		5%
+IDLE           	1394322180		93%
+beta           	4937808		<1%
+alpha          	3453744		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=89149296
+IDLE state=1 rt=1394322180
+alpha state=2 rt=3453744
+beta state=2 rt=4940104
+Tmr Svc state=2 rt=1972
+A held by beta, B held by none
+
+==== t=21235 ms ====
+stats          	90406935		5%
+IDLE           	1430063157		93%
+alpha          	3541254		<1%
+beta           	5065235		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=91428066
+IDLE state=1 rt=1430063157
+beta state=2 rt=5065235
+alpha state=2 rt=3542595
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=21766 ms ====
+stats          	92688227		5%
+IDLE           	1465798654		93%
+alpha          	3628763		<1%
+beta           	5190371		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=93704012
+IDLE state=1 rt=1465798654
+beta state=2 rt=5194033
+alpha state=2 rt=3632929
+Tmr Svc state=2 rt=1972
+A held by none, B held by none
+
+==== t=22297 ms ====
+stats          	94969314		5%
+IDLE           	1501536735		93%
+alpha          	3716272		<1%
+beta           	5315507		<1%
+Tmr Svc        	1972		<1%
+stats state=0 rt=95983510
+IDLE state=1 rt=1501536735
+alpha state=2 rt=3720438
+beta state=2 rt=5321465
+Tmr Svc state=2 rt=1972
+A held by alpha, B held by none

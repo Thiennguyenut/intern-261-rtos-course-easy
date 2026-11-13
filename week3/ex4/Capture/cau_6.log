@@ -1,0 +1,2792 @@
+==== t=1102 ms ====
+stats          	6651027		8%
+IDLE           	64999223		81%
+alpha          	182921		<1%
+beta           	193769		<1%
+load           	7379340		9%
+hb             	50229		<1%
+sup            	36216		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=8190382
+IDLE state=1 rt=64999223
+alpha state=2 rt=187033
+beta state=2 rt=197881
+load state=2 rt=7524843
+hb state=2 rt=50229
+sup state=2 rt=36216
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=1652 ms ====
+stats          	10004626		8%
+IDLE           	97405810		81%
+alpha          	273628		<1%
+beta           	284476		<1%
+load           	10996513		9%
+hb             	74700		<1%
+sup            	52964		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=11556453
+IDLE state=1 rt=97405810
+alpha state=2 rt=277740
+beta state=2 rt=288588
+load state=2 rt=11142017
+hb state=2 rt=74700
+sup state=2 rt=52964
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=2203 ms ====
+stats          	13392660		8%
+IDLE           	129847471		81%
+alpha          	364335		<1%
+beta           	375183		<1%
+load           	14615652		9%
+hb             	99165		<1%
+sup            	69712		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=14950792
+IDLE state=1 rt=129847471
+alpha state=2 rt=368447
+beta state=2 rt=379290
+load state=2 rt=14758383
+hb state=2 rt=99165
+sup state=2 rt=69712
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=2754 ms ====
+stats          	16793361		8%
+IDLE           	162285665		81%
+hb             	121360		<1%
+alpha          	455042		<1%
+beta           	465885		<1%
+load           	18229028		9%
+sup            	84922		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=18355191
+IDLE state=1 rt=162285665
+alpha state=2 rt=459154
+load state=2 rt=18374531
+beta state=2 rt=470009
+hb state=2 rt=123587
+sup state=2 rt=86443
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=3305 ms ====
+stats          	20207448		8%
+IDLE           	194703614		81%
+hb             	145831		<1%
+alpha          	545749		<1%
+load           	21846164		9%
+beta           	556604		<1%
+sup            	101670		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=21782965
+IDLE state=1 rt=194703614
+alpha state=2 rt=549856
+load state=2 rt=21988629
+beta state=2 rt=560722
+hb state=2 rt=148058
+sup state=2 rt=103191
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=3856 ms ====
+stats          	23631789		8%
+IDLE           	227112520		81%
+hb             	170296		<1%
+alpha          	636451		<1%
+load           	25462242		9%
+beta           	647312		<1%
+sup            	118418		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=25201724
+IDLE state=1 rt=227112520
+load state=2 rt=25607745
+alpha state=2 rt=640575
+beta state=2 rt=651424
+hb state=2 rt=172523
+sup state=2 rt=119939
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=4407 ms ====
+stats          	27053517		8%
+IDLE           	259525882		81%
+hb             	194735		<1%
+beta           	735239		<1%
+load           	29079212		9%
+alpha          	727170		<1%
+sup            	135149		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=28625969
+IDLE state=1 rt=259525882
+beta state=2 rt=739383
+load state=2 rt=29224669
+alpha state=2 rt=731288
+hb state=2 rt=196930
+sup state=2 rt=136653
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=4958 ms ====
+stats          	30486625		8%
+IDLE           	291924846		81%
+hb             	219040		<1%
+beta           	826066		<1%
+load           	32698342		9%
+alpha          	817883		<1%
+sup            	151795		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=32059059
+IDLE state=1 rt=291924846
+beta state=2 rt=830178
+load state=2 rt=32843847
+alpha state=2 rt=821995
+hb state=2 rt=221267
+sup state=2 rt=153316
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=5509 ms ====
+stats          	33912374		8%
+IDLE           	324330979		81%
+hb             	243462		<1%
+beta           	916733		<1%
+load           	36314556		9%
+alpha          	908585		<1%
+sup            	168526		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=35480798
+IDLE state=1 rt=324330979
+alpha state=2 rt=909907
+beta state=2 rt=919523
+load state=2 rt=36460059
+hb state=2 rt=245689
+sup state=2 rt=170047
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=6060 ms ====
+stats          	37340681		8%
+IDLE           	356735883		81%
+alpha          	996717		<1%
+hb             	267756		<1%
+beta           	1008595		<1%
+load           	39932259		9%
+sup            	185189		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=38914413
+IDLE state=1 rt=356735883
+alpha state=2 rt=1000846
+beta state=2 rt=1012739
+load state=2 rt=40077762
+hb state=2 rt=269951
+sup state=2 rt=186693
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=6612 ms ====
+stats          	40779414		8%
+IDLE           	389200391		81%
+hb             	291997		<1%
+alpha          	1087598		<1%
+beta           	1099334		<1%
+load           	43550369		9%
+sup            	201801		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=42362098
+IDLE state=1 rt=389200391
+alpha state=2 rt=1091710
+beta state=2 rt=1103441
+load state=2 rt=43693100
+hb state=2 rt=294224
+sup state=2 rt=203322
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=7164 ms ====
+stats          	44225449		8%
+IDLE           	421659195		81%
+alpha          	1178265		<1%
+beta           	1190036		<1%
+load           	47164777		9%
+hb             	318695		<1%
+sup            	220070		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=45807267
+IDLE state=1 rt=421659195
+load state=2 rt=47310280
+alpha state=2 rt=1182389
+beta state=2 rt=1194160
+hb state=2 rt=318695
+sup state=2 rt=220070
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=7718 ms ====
+stats          	47672195		8%
+IDLE           	454257574		81%
+load           	50783960		9%
+alpha          	1269087		<1%
+beta           	1280755		<1%
+hb             	343032		<1%
+sup            	236750		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=49252235
+IDLE state=1 rt=454257574
+alpha state=2 rt=1273194
+beta state=2 rt=1284873
+load state=2 rt=51071928
+hb state=2 rt=343032
+sup state=2 rt=236750
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=8274 ms ====
+stats          	51114740		8%
+IDLE           	486865814		81%
+beta           	1371468		<1%
+load           	54541612		9%
+alpha          	1362637		<1%
+hb             	367373		<1%
+sup            	253447		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=52701310
+IDLE state=1 rt=486865814
+alpha state=2 rt=1363965
+beta state=2 rt=1375580
+load state=2 rt=54687069
+hb state=2 rt=367373
+sup state=2 rt=253447
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=8826 ms ====
+stats          	54567024		8%
+IDLE           	519318457		81%
+alpha          	1450555		<1%
+beta           	1462175		<1%
+load           	58158741		9%
+hb             	391844		<1%
+sup            	270195		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=56151307
+IDLE state=1 rt=519318457
+alpha state=2 rt=1454667
+beta state=2 rt=1466287
+load state=2 rt=58304244
+hb state=2 rt=391844
+sup state=2 rt=270195
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=9378 ms ====
+stats          	58013907		8%
+IDLE           	551774176		81%
+alpha          	1541257		<1%
+beta           	1552882		<1%
+load           	61777879		9%
+hb             	416309		<1%
+sup            	286943		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=59597628
+IDLE state=1 rt=551774176
+alpha state=2 rt=1545369
+beta state=2 rt=1556994
+load state=2 rt=61923382
+hb state=2 rt=416309
+sup state=2 rt=286943
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=9930 ms ====
+stats          	61464107		8%
+IDLE           	584230916		81%
+alpha          	1631964		<1%
+beta           	1643589		<1%
+load           	65394051		9%
+hb             	440731		<1%
+sup            	303674		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=63045933
+IDLE state=1 rt=584230916
+alpha state=2 rt=1636076
+beta state=2 rt=1647701
+load state=2 rt=65539554
+hb state=2 rt=440731
+sup state=2 rt=303674
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=10482 ms ====
+stats          	64917559		8%
+IDLE           	616685771		81%
+alpha          	1722671		<1%
+beta           	1734296		<1%
+load           	69011165		9%
+hb             	465202		<1%
+sup            	320422		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=66504734
+IDLE state=1 rt=616685771
+alpha state=2 rt=1726783
+beta state=2 rt=1738403
+load state=2 rt=69153894
+hb state=2 rt=465202
+sup state=2 rt=320422
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=11034 ms ====
+stats          	68374519		8%
+IDLE           	649134168		81%
+alpha          	1813378		<1%
+beta           	1824998		<1%
+load           	72627547		9%
+hb             	489667		<1%
+sup            	337170		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=69959577
+IDLE state=1 rt=649134168
+alpha state=2 rt=1816168
+load state=2 rt=72773050
+beta state=2 rt=1829122
+hb state=2 rt=489667
+sup state=2 rt=337170
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=11586 ms ====
+stats          	71833067		8%
+IDLE           	681581211		81%
+alpha          	1902763		<1%
+load           	76244495		9%
+beta           	1915732		<1%
+hb             	514106		<1%
+sup            	353901		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=73421040
+IDLE state=1 rt=681581211
+alpha state=2 rt=1906870
+load state=2 rt=76386960
+beta state=2 rt=1919850
+hb state=2 rt=514106
+sup state=2 rt=353901
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=12140 ms ====
+stats          	75282880		8%
+IDLE           	714180885		81%
+alpha          	1993465		<1%
+load           	79860611		9%
+beta           	2006565		<1%
+hb             	538411		<1%
+sup            	370547		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=76860350
+IDLE state=1 rt=714180885
+alpha state=2 rt=1998917
+beta state=2 rt=2010677
+hb state=2 rt=538411
+load state=2 rt=80151587
+sup state=2 rt=370547
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=12696 ms ====
+stats          	78724860		8%
+IDLE           	746788611		81%
+alpha          	2085512		<1%
+beta           	2097232		<1%
+load           	83622043		9%
+hb             	562833		<1%
+sup            	387278		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=80306692
+IDLE state=1 rt=746788611
+alpha state=2 rt=2089624
+beta state=2 rt=2101344
+hb state=2 rt=562833
+load state=2 rt=83767563
+sup state=2 rt=387278
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=13248 ms ====
+stats          	82174867		8%
+IDLE           	779239905		81%
+alpha          	2176202		<1%
+beta           	2188073		<1%
+load           	87239511		9%
+hb             	587127		<1%
+sup            	403941		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=83759138
+IDLE state=1 rt=779239905
+alpha state=2 rt=2180314
+hb state=2 rt=587127
+beta state=2 rt=2192202
+load state=2 rt=87385031
+sup state=2 rt=403941
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=13800 ms ====
+stats          	85625832		8%
+IDLE           	811692104		81%
+alpha          	2267071		<1%
+beta           	2278812		<1%
+load           	90857621		9%
+hb             	611368		<1%
+sup            	420553		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=87211429
+IDLE state=1 rt=811692104
+alpha state=2 rt=2269861
+hb state=2 rt=611368
+beta state=2 rt=2282941
+load state=2 rt=91003142
+sup state=2 rt=420553
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=14352 ms ====
+stats          	89080025		8%
+IDLE           	844143174		81%
+alpha          	2356416		<1%
+beta           	2369519		<1%
+load           	94474820		9%
+hb             	635839		<1%
+sup            	437301		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=90667143
+IDLE state=1 rt=844143174
+alpha state=2 rt=2360528
+hb state=2 rt=635839
+beta state=2 rt=2373643
+load state=2 rt=94617546
+sup state=2 rt=437301
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=14904 ms ====
+stats          	92532697		8%
+IDLE           	876595953		81%
+alpha          	2447189		<1%
+beta           	2460221		<1%
+load           	98091184		9%
+hb             	660208		<1%
+sup            	453998		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=94116342
+IDLE state=1 rt=876595953
+hb state=2 rt=660208
+alpha state=2 rt=2451318
+load state=2 rt=98236704
+beta state=2 rt=2464362
+sup state=2 rt=453998
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=15456 ms ====
+stats          	95985457		8%
+IDLE           	909049304		81%
+alpha          	2537986		<1%
+load           	101706393		9%
+beta           	2550940		<1%
+hb             	684517		<1%
+sup            	470678		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=97579637
+IDLE state=1 rt=909049304
+hb state=2 rt=684517
+alpha state=2 rt=2542110
+load state=2 rt=101848853
+beta state=2 rt=2555075
+sup state=2 rt=470678
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=16008 ms ====
+stats          	99454819		8%
+IDLE           	941487571		81%
+alpha          	2628688		<1%
+load           	105320487		9%
+beta           	2641653		<1%
+hb             	708988		<1%
+sup            	487426		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=101044114
+IDLE state=1 rt=941487571
+hb state=2 rt=708988
+load state=2 rt=105466007
+alpha state=2 rt=2632829
+beta state=2 rt=2645782
+sup state=2 rt=487426
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=16562 ms ====
+stats          	102926409		8%
+IDLE           	974061668		81%
+load           	108939623		9%
+alpha          	2719407		<1%
+beta           	2732360		<1%
+hb             	733453		<1%
+sup            	504174		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=104512744
+IDLE state=1 rt=974061668
+alpha state=2 rt=2723542
+beta state=2 rt=2736489
+load state=2 rt=109230600
+hb state=2 rt=735680
+sup state=2 rt=505695
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=17118 ms ====
+stats          	106395573		8%
+IDLE           	1006641639		81%
+alpha          	2810120		<1%
+beta           	2823067		<1%
+hb             	757924		<1%
+load           	112702277		9%
+sup            	520922		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=107997097
+IDLE state=1 rt=1006641639
+alpha state=2 rt=2814249
+beta state=2 rt=2827196
+load state=2 rt=112846791
+hb state=2 rt=760102
+sup state=2 rt=522426
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=17670 ms ====
+stats          	109886422		8%
+IDLE           	1039050886		81%
+alpha          	2900827		<1%
+beta           	2913774		<1%
+load           	116321396		9%
+hb             	782389		<1%
+sup            	537670		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=111489421
+IDLE state=1 rt=1039050886
+alpha state=2 rt=2904956
+beta state=2 rt=2917903
+load state=2 rt=116463929
+hb state=2 rt=784573
+sup state=2 rt=539174
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=18222 ms ====
+stats          	113382375		8%
+IDLE           	1071459905		81%
+alpha          	2991534		<1%
+beta           	3004481		<1%
+load           	119937587		9%
+hb             	806811		<1%
+sup            	554401		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=114985044
+IDLE state=1 rt=1071459905
+alpha state=2 rt=2995663
+beta state=2 rt=3008605
+load state=2 rt=120080331
+hb state=2 rt=809038
+sup state=2 rt=555922
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=18774 ms ====
+stats          	116874398		8%
+IDLE           	1103875477		81%
+alpha          	3082241		<1%
+beta           	3095166		<1%
+load           	123551737		9%
+hb             	831282		<1%
+sup            	571149		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=118473114
+IDLE state=1 rt=1103875477
+alpha state=2 rt=3086370
+load state=2 rt=123697257
+beta state=2 rt=3099339
+hb state=2 rt=833477
+sup state=2 rt=572653
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=19326 ms ====
+stats          	120365946		8%
+IDLE           	1136286077		81%
+alpha          	3172948		<1%
+load           	127170929		9%
+beta           	3186042		<1%
+hb             	855555		<1%
+sup            	587778		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=121968871
+IDLE state=1 rt=1136286077
+alpha state=2 rt=3177072
+load state=2 rt=127313389
+beta state=2 rt=3190172
+hb state=2 rt=857782
+sup state=2 rt=589299
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=19878 ms ====
+stats          	123862165		8%
+IDLE           	1168698577		81%
+alpha          	3263650		<1%
+load           	130784039		9%
+beta           	3276715		<1%
+hb             	879977		<1%
+sup            	604509		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=125460146
+IDLE state=1 rt=1168698577
+load state=2 rt=130929559
+alpha state=2 rt=3267791
+beta state=2 rt=3280839
+hb state=2 rt=882204
+sup state=2 rt=606030
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=20430 ms ====
+stats          	127354480		8%
+IDLE           	1201109997		81%
+load           	134401507		9%
+alpha          	3354352		<1%
+hb             	904303		<1%
+beta           	3367536		<1%
+sup            	621189		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=128953832
+IDLE state=1 rt=1201109997
+load state=2 rt=134546981
+alpha state=2 rt=3358487
+beta state=2 rt=3371680
+hb state=2 rt=906498
+sup state=2 rt=622693
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=20984 ms ====
+stats          	130838903		8%
+IDLE           	1233673139		81%
+load           	138019573		9%
+alpha          	3445232		<1%
+hb             	928512		<1%
+beta           	3458307		<1%
+sup            	637784		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=132431503
+IDLE state=1 rt=1233673139
+alpha state=2 rt=3449356
+beta state=2 rt=3462419
+load state=2 rt=138310596
+hb state=2 rt=930739
+sup state=2 rt=639305
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=21540 ms ====
+stats          	134319661		8%
+IDLE           	1266240869		81%
+alpha          	3535899		<1%
+hb             	952983		<1%
+beta           	3549014		<1%
+load           	141782295		9%
+sup            	654532		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=135917727
+IDLE state=1 rt=1266240869
+alpha state=2 rt=3540023
+beta state=2 rt=3553126
+load state=2 rt=141927798
+hb state=2 rt=955210
+sup state=2 rt=656053
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=22092 ms ====
+stats          	137812017		8%
+IDLE           	1298648623		81%
+hb             	977384		<1%
+alpha          	3626652		<1%
+beta           	3639721		<1%
+load           	145401451		9%
+sup            	671246		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=139414814
+IDLE state=1 rt=1298648623
+alpha state=2 rt=3630796
+beta state=2 rt=3643828
+load state=2 rt=145544182
+hb state=2 rt=979579
+sup state=2 rt=672750
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=22644 ms ====
+stats          	141305306		8%
+IDLE           	1331064803		81%
+hb             	1001661		<1%
+alpha          	3717481		<1%
+beta           	3730423		<1%
+load           	149013867		9%
+sup            	687909		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=142910924
+IDLE state=1 rt=1331064803
+alpha state=2 rt=3721593
+load state=2 rt=149159370
+beta state=2 rt=3734547
+hb state=2 rt=1003888
+sup state=2 rt=689430
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=23196 ms ====
+stats          	144811279		8%
+IDLE           	1363462873		81%
+hb             	1026132		<1%
+alpha          	3808188		<1%
+load           	152631004		9%
+beta           	3821142		<1%
+sup            	704657		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=146421140
+IDLE state=1 rt=1363462873
+alpha state=2 rt=3812295
+load state=2 rt=152773469
+beta state=2 rt=3825260
+hb state=2 rt=1028359
+sup state=2 rt=706178
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=23748 ms ====
+stats          	148314950		8%
+IDLE           	1395864854		81%
+hb             	1050597		<1%
+alpha          	3898890		<1%
+load           	156247081		9%
+beta           	3911855		<1%
+sup            	721405		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=149919859
+IDLE state=1 rt=1395864854
+load state=2 rt=156392586
+alpha state=2 rt=3903014
+beta state=2 rt=3915967
+hb state=2 rt=1052824
+sup state=2 rt=722926
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=24300 ms ====
+stats          	151814802		8%
+IDLE           	1428268911		81%
+hb             	1075068		<1%
+load           	159864259		9%
+alpha          	3989609		<1%
+beta           	4002562		<1%
+sup            	738153		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=153421040
+IDLE state=1 rt=1428268911
+load state=2 rt=160009716
+alpha state=2 rt=3993727
+beta state=2 rt=4006674
+hb state=2 rt=1077295
+sup state=2 rt=739674
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=24852 ms ====
+stats          	155318736		8%
+IDLE           	1460666983		81%
+hb             	1099533		<1%
+load           	163483350		9%
+alpha          	4080322		<1%
+beta           	4093269		<1%
+sup            	754901		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=156923745
+IDLE state=1 rt=1460666983
+load state=2 rt=163628853
+alpha state=2 rt=4084434
+beta state=2 rt=4097381
+hb state=2 rt=1101760
+sup state=2 rt=756422
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=25406 ms ====
+stats          	158812248		8%
+IDLE           	1493219133		81%
+load           	167099542		9%
+alpha          	4171029		<1%
+beta           	4183976		<1%
+hb             	1126182		<1%
+sup            	773153		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=160414796
+IDLE state=1 rt=1493219133
+alpha state=2 rt=4175141
+beta state=2 rt=4188088
+load state=2 rt=167390548
+hb state=2 rt=1126182
+sup state=2 rt=773153
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=25962 ms ====
+stats          	162312943		8%
+IDLE           	1525767089		81%
+alpha          	4261736		<1%
+beta           	4274666		<1%
+load           	170861975		9%
+hb             	1150653		<1%
+sup            	789901		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=163923866
+IDLE state=1 rt=1525767089
+alpha state=2 rt=4265848
+beta state=2 rt=4278773
+load state=2 rt=171004706
+hb state=2 rt=1150653
+sup state=2 rt=789901
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=26514 ms ====
+stats          	165818933		8%
+IDLE           	1558164716		81%
+alpha          	4352443		<1%
+beta           	4365525		<1%
+load           	174478377		9%
+hb             	1174926		<1%
+sup            	806530		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=167428328
+IDLE state=1 rt=1558164716
+alpha state=2 rt=4356555
+load state=2 rt=174623880
+beta state=2 rt=4369649
+hb state=2 rt=1174926
+sup state=2 rt=806530
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=27066 ms ====
+stats          	169327004		8%
+IDLE           	1590561761		81%
+alpha          	4443150		<1%
+load           	178094547		9%
+beta           	4456204		<1%
+hb             	1199348		<1%
+sup            	823261		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=170940599
+IDLE state=1 rt=1590561761
+alpha state=2 rt=4447257
+load state=2 rt=178237012
+beta state=2 rt=4460322
+hb state=2 rt=1199348
+sup state=2 rt=823261
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=27618 ms ====
+stats          	172831989		8%
+IDLE           	1622964218		81%
+alpha          	4533835		<1%
+load           	181708961		9%
+beta           	4547014		<1%
+hb             	1223674		<1%
+sup            	839941		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=174440631
+IDLE state=1 rt=1622964218
+load state=2 rt=181854464
+alpha state=2 rt=4537959
+hb state=2 rt=1223674
+beta state=2 rt=4551143
+sup state=2 rt=839941
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=28170 ms ====
+stats          	176333829		8%
+IDLE           	1655368700		81%
+load           	185327071		9%
+alpha          	4624721		<1%
+beta           	4637780		<1%
+hb             	1247883		<1%
+sup            	856536		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=177940672
+IDLE state=1 rt=1655368700
+load state=2 rt=185472528
+alpha state=2 rt=4628839
+hb state=2 rt=1247883
+beta state=2 rt=4641909
+sup state=2 rt=856536
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=28723 ms ====
+stats          	179836454		8%
+IDLE           	1687842503		81%
+load           	188944225		9%
+alpha          	4715394		<1%
+beta           	4728482		<1%
+hb             	1272354		<1%
+sup            	873284		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=181444581
+IDLE state=1 rt=1687842503
+load state=2 rt=189089728
+alpha state=2 rt=4719506
+hb state=2 rt=1272354
+beta state=2 rt=4732611
+sup state=2 rt=873284
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=29278 ms ====
+stats          	183339382		8%
+IDLE           	1720454795		81%
+load           	192563383		9%
+alpha          	4806130		<1%
+beta           	4819189		<1%
+hb             	1296755		<1%
+sup            	889998		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=184941934
+IDLE state=1 rt=1720454795
+hb state=2 rt=1296755
+alpha state=2 rt=4810259
+beta state=2 rt=4823318
+load state=2 rt=192854408
+sup state=2 rt=889998
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=29834 ms ====
+stats          	186840460		8%
+IDLE           	1753004208		81%
+alpha          	4896959		<1%
+beta           	4909896		<1%
+load           	196324102		9%
+hb             	1321032		<1%
+sup            	906661		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=188451310
+IDLE state=1 rt=1753004208
+hb state=2 rt=1321032
+alpha state=2 rt=4901088
+beta state=2 rt=4914020
+load state=2 rt=196466832
+sup state=2 rt=906661
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=30386 ms ====
+stats          	190345702		8%
+IDLE           	1785403969		81%
+alpha          	4987666		<1%
+beta           	5000598		<1%
+load           	199938428		9%
+hb             	1345503		<1%
+sup            	923409		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=191955542
+IDLE state=1 rt=1785403969
+hb state=2 rt=1345503
+alpha state=2 rt=4991795
+load state=2 rt=200083948
+beta state=2 rt=5004739
+sup state=2 rt=923409
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=30938 ms ====
+stats          	193854006		8%
+IDLE           	1817798225		81%
+alpha          	5078373		<1%
+load           	203557586		9%
+beta           	5091317		<1%
+hb             	1369968		<1%
+sup            	940157		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=195467616
+IDLE state=1 rt=1817798225
+hb state=2 rt=1369968
+alpha state=2 rt=5082497
+load state=2 rt=203700046
+beta state=2 rt=5095452
+sup state=2 rt=940157
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=31490 ms ====
+stats          	197358746		8%
+IDLE           	1850200489		81%
+alpha          	5169075		<1%
+load           	207171680		9%
+beta           	5182030		<1%
+hb             	1394439		<1%
+sup            	956905		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=198968028
+IDLE state=1 rt=1850200489
+hb state=2 rt=1394439
+load state=2 rt=207317200
+alpha state=2 rt=5173216
+beta state=2 rt=5186159
+sup state=2 rt=956905
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=32042 ms ====
+stats          	200860303		8%
+IDLE           	1882604048		81%
+load           	210790816		9%
+alpha          	5259794		<1%
+beta           	5272732		<1%
+hb             	1418904		<1%
+sup            	973653		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=202467696
+IDLE state=1 rt=1882604048
+hb state=2 rt=1418904
+load state=2 rt=210936290
+alpha state=2 rt=5263929
+beta state=2 rt=5276861
+sup state=2 rt=973653
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=32595 ms ====
+stats          	204363409		8%
+IDLE           	1915078504		81%
+load           	214406956		9%
+alpha          	5350507		<1%
+beta           	5363434		<1%
+hb             	1443326		<1%
+sup            	990384		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=205971362
+IDLE state=1 rt=1915078504
+hb state=2 rt=1443326
+load state=2 rt=214552476
+alpha state=2 rt=5354636
+beta state=2 rt=5367563
+sup state=2 rt=990384
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=33150 ms ====
+stats          	207866242		8%
+IDLE           	1947692976		81%
+load           	218023882		9%
+alpha          	5441214		<1%
+beta           	5454124		<1%
+hb             	1467797		<1%
+sup            	1007132		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=209471222
+IDLE state=1 rt=1947692976
+alpha state=2 rt=5445343
+beta state=2 rt=5458253
+load state=2 rt=218314905
+hb state=2 rt=1470024
+sup state=2 rt=1008653
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=33706 ms ====
+stats          	211380462		8%
+IDLE           	1980225324		81%
+alpha          	5531921		<1%
+beta           	5544988		<1%
+hb             	1492070		<1%
+load           	221788574		9%
+sup            	1023761		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=212993820
+IDLE state=1 rt=1980225324
+alpha state=2 rt=5536050
+beta state=2 rt=5549112
+load state=2 rt=221931305
+hb state=2 rt=1494297
+sup state=2 rt=1025282
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=34259 ms ====
+stats          	214904361		8%
+IDLE           	2012678805		81%
+alpha          	5622628		<1%
+beta           	5635650		<1%
+hb             	1516541		<1%
+load           	225402956		9%
+sup            	1040509		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=216517200
+IDLE state=1 rt=2012678805
+alpha state=2 rt=5626757
+load state=2 rt=225547469
+beta state=2 rt=5639791
+hb state=2 rt=1518719
+sup state=2 rt=1042013
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=34812 ms ====
+stats          	218424301		8%
+IDLE           	2045132786		81%
+alpha          	5713335		<1%
+load           	229022116		9%
+hb             	1540878		<1%
+beta           	5726489		<1%
+sup            	1057189		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=220044460
+IDLE state=1 rt=2045132786
+alpha state=2 rt=5717442
+load state=2 rt=229161919
+beta state=2 rt=5730601
+hb state=2 rt=1543045
+sup state=2 rt=1058693
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=35365 ms ====
+stats          	221949270		8%
+IDLE           	2077589364		81%
+alpha          	5804187		<1%
+load           	232634489		9%
+hb             	1565027		<1%
+beta           	5817260		<1%
+sup            	1073767		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=223557291
+IDLE state=1 rt=2077589364
+load state=2 rt=232780009
+alpha state=2 rt=5808328
+beta state=2 rt=5821372
+hb state=2 rt=1567254
+sup state=2 rt=1075288
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=35918 ms ====
+stats          	225458137		8%
+IDLE           	2110056958		81%
+load           	236251686		9%
+alpha          	5894871		<1%
+hb             	1589498		<1%
+beta           	5907967		<1%
+sup            	1090515		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=227069918
+IDLE state=1 rt=2110056958
+load state=2 rt=236397160
+alpha state=2 rt=5899001
+beta state=2 rt=5912079
+hb state=2 rt=1591725
+sup state=2 rt=1092036
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=36473 ms ====
+stats          	228967699		8%
+IDLE           	2142665693		81%
+load           	239870796		9%
+hb             	1613931		<1%
+alpha          	5985593		<1%
+beta           	5998674		<1%
+sup            	1107246		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=230575253
+IDLE state=1 rt=2142665693
+alpha state=2 rt=5989737
+beta state=2 rt=6002786
+load state=2 rt=240161818
+hb state=2 rt=1616126
+sup state=2 rt=1108750
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=37028 ms ====
+stats          	232481311		8%
+IDLE           	2175130112		81%
+hb             	1638176		<1%
+alpha          	6076454		<1%
+beta           	6089381		<1%
+load           	243631522		9%
+sup            	1123892		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=234091948
+IDLE state=1 rt=2175130112
+alpha state=2 rt=6080566
+beta state=2 rt=6093493
+load state=2 rt=243777026
+hb state=2 rt=1640403
+sup state=2 rt=1125413
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=37581 ms ====
+stats          	236006375		8%
+IDLE           	2207579727		81%
+hb             	1662647		<1%
+alpha          	6167161		<1%
+beta           	6180088		<1%
+load           	247248637		9%
+sup            	1140640		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=237624730
+IDLE state=1 rt=2207579727
+alpha state=2 rt=6171273
+beta state=2 rt=6184195
+load state=2 rt=247391368
+hb state=2 rt=1664874
+sup state=2 rt=1142161
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=38134 ms ====
+stats          	239519712		8%
+IDLE           	2240039892		81%
+alpha          	6257868		<1%
+beta           	6270790		<1%
+load           	250865022		9%
+hb             	1689339		<1%
+sup            	1158909		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=241134565
+IDLE state=1 rt=2240039892
+alpha state=2 rt=6261980
+load state=2 rt=251010525
+beta state=2 rt=6274914
+hb state=2 rt=1689339
+sup state=2 rt=1158909
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=38687 ms ====
+stats          	243036632		8%
+IDLE           	2272498734		81%
+alpha          	6348575		<1%
+load           	254482176		9%
+beta           	6361509		<1%
+hb             	1713810		<1%
+sup            	1175657		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=244652745
+IDLE state=1 rt=2272498734
+alpha state=2 rt=6352682
+load state=2 rt=254624641
+beta state=2 rt=6365627
+hb state=2 rt=1713810
+sup state=2 rt=1175657
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=39240 ms ====
+stats          	246555113		8%
+IDLE           	2304957816		81%
+alpha          	6439277		<1%
+load           	258098256		9%
+beta           	6452222		<1%
+hb             	1738275		<1%
+sup            	1192405		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=248169418
+IDLE state=1 rt=2304957816
+load state=2 rt=258243759
+alpha state=2 rt=6443401
+beta state=2 rt=6456334
+hb state=2 rt=1738275
+sup state=2 rt=1192405
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=39795 ms ====
+stats          	250064473		8%
+IDLE           	2337569688		81%
+load           	261714445		9%
+alpha          	6529996		<1%
+beta           	6542929		<1%
+hb             	1762697		<1%
+sup            	1209136		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=251677739
+IDLE state=1 rt=2337569688
+alpha state=2 rt=6534114
+beta state=2 rt=6547041
+hb state=2 rt=1762697
+load state=2 rt=262004146
+sup state=2 rt=1209136
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=40350 ms ====
+stats          	253572296		8%
+IDLE           	2370040054		81%
+alpha          	6620709		<1%
+beta           	6633619		<1%
+load           	265475551		9%
+hb             	1787168		<1%
+sup            	1225884		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=255186544
+IDLE state=1 rt=2370040054
+alpha state=2 rt=6624821
+beta state=2 rt=6637731
+hb state=2 rt=1787168
+load state=2 rt=265621071
+sup state=2 rt=1225884
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=40903 ms ====
+stats          	257092863		8%
+IDLE           	2402492173		81%
+alpha          	6711416		<1%
+beta           	6724483		<1%
+load           	269094743		9%
+hb             	1811441		<1%
+sup            	1242513		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=258705319
+IDLE state=1 rt=2402492173
+alpha state=2 rt=6715528
+beta state=2 rt=6728595
+hb state=2 rt=1811441
+load state=2 rt=269240263
+sup state=2 rt=1242513
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=41456 ms ====
+stats          	260605853		8%
+IDLE           	2434955057		81%
+alpha          	6802123		<1%
+beta           	6815150		<1%
+load           	272711919		9%
+hb             	1835912		<1%
+sup            	1259261		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=262224189
+IDLE state=1 rt=2434955057
+alpha state=2 rt=6806235
+beta state=2 rt=6819257
+hb state=2 rt=1835912
+load state=2 rt=272854667
+sup state=2 rt=1259261
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=42009 ms ====
+stats          	264124446		8%
+IDLE           	2467413726		81%
+alpha          	6892830		<1%
+beta           	6905955		<1%
+load           	276328303		9%
+hb             	1860249		<1%
+sup            	1275941		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=265742494
+IDLE state=1 rt=2467413726
+alpha state=2 rt=6896942
+load state=2 rt=276473806
+hb state=2 rt=1860249
+beta state=2 rt=6910096
+sup state=2 rt=1275941
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=42562 ms ====
+stats          	267646721		8%
+IDLE           	2499869300		81%
+alpha          	6983687		<1%
+load           	279943737		9%
+beta           	6996732		<1%
+hb             	1884398		<1%
+sup            	1292519		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=269265948
+IDLE state=1 rt=2499869300
+alpha state=2 rt=6987794
+load state=2 rt=280086202
+hb state=2 rt=1884398
+beta state=2 rt=7000867
+sup state=2 rt=1292519
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=43117 ms ====
+stats          	271158098		8%
+IDLE           	2532479861		81%
+load           	283557875		9%
+alpha          	7075688		<1%
+beta           	7087445		<1%
+hb             	1908869		<1%
+sup            	1309267		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=272771294
+IDLE state=1 rt=2532479861
+hb state=2 rt=1908869
+alpha state=2 rt=7079818
+beta state=2 rt=7091574
+load state=2 rt=283848856
+sup state=2 rt=1309267
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=43672 ms ====
+stats          	274672100		8%
+IDLE           	2564941331		81%
+alpha          	7166393		<1%
+beta           	7178152		<1%
+load           	287322695		9%
+hb             	1933564		<1%
+sup            	1325998		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=276281439
+IDLE state=1 rt=2564941331
+alpha state=2 rt=7170554
+beta state=2 rt=7182281
+load state=2 rt=287468215
+hb state=2 rt=1935759
+sup state=2 rt=1327502
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=44225 ms ====
+stats          	278192194		8%
+IDLE           	2597398562		81%
+alpha          	7257254		<1%
+beta           	7268859		<1%
+load           	290937907		9%
+hb             	1957809		<1%
+sup            	1342644		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=279798991
+IDLE state=1 rt=2597398562
+alpha state=2 rt=7261383
+beta state=2 rt=7272988
+load state=2 rt=291083427
+hb state=2 rt=1960036
+sup state=2 rt=1344165
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=44778 ms ====
+stats          	281701922		8%
+IDLE           	2629864730		81%
+alpha          	7347961		<1%
+beta           	7359566		<1%
+load           	294555021		9%
+hb             	1982280		<1%
+sup            	1359392		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=283311782
+IDLE state=1 rt=2629864730
+alpha state=2 rt=7352090
+beta state=2 rt=7363695
+load state=2 rt=294700541
+hb state=2 rt=1984507
+sup state=2 rt=1360913
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=45331 ms ====
+stats          	285217189		8%
+IDLE           	2662323924		81%
+alpha          	7438668		<1%
+beta           	7450273		<1%
+load           	298174203		9%
+hb             	2006745		<1%
+sup            	1376140		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=286826079
+IDLE state=1 rt=2662323924
+alpha state=2 rt=7442797
+beta state=2 rt=7454397
+load state=2 rt=298316929
+hb state=2 rt=2008972
+sup state=2 rt=1377661
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=45884 ms ====
+stats          	288729019		8%
+IDLE           	2694790767		81%
+alpha          	7529375		<1%
+beta           	7540975		<1%
+load           	301788541		9%
+hb             	2031216		<1%
+sup            	1392888		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=290338250
+IDLE state=1 rt=2694790767
+load state=2 rt=301934063
+alpha state=2 rt=7533516
+beta state=2 rt=7545116
+hb state=2 rt=2033443
+sup state=2 rt=1394409
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=46439 ms ====
+stats          	292240108		8%
+IDLE           	2727396537		81%
+load           	305407707		9%
+alpha          	7620094		<1%
+beta           	7631694		<1%
+hb             	2055681		<1%
+sup            	1409636		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=293852435
+IDLE state=1 rt=2727396537
+alpha state=2 rt=7624218
+beta state=2 rt=7635829
+load state=2 rt=305694612
+hb state=2 rt=2057908
+sup state=2 rt=1411157
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=46994 ms ====
+stats          	295758110		8%
+IDLE           	2759856590		81%
+beta           	7722407		<1%
+hb             	2080103		<1%
+load           	309165296		9%
+alpha          	7713864		<1%
+sup            	1426367		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=297373335
+IDLE state=1 rt=2759856590
+alpha state=2 rt=7715192
+beta state=2 rt=7726536
+load state=2 rt=309310753
+hb state=2 rt=2082330
+sup state=2 rt=1427888
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=47547 ms ====
+stats          	299286656		8%
+IDLE           	2792302900		81%
+beta           	7813097		<1%
+hb             	2104574		<1%
+load           	312782158		9%
+alpha          	7804572		<1%
+sup            	1443115		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=300898826
+IDLE state=1 rt=2792302900
+alpha state=2 rt=7805894
+beta state=2 rt=7817226
+load state=2 rt=312927661
+hb state=2 rt=2106801
+sup state=2 rt=1444636
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=48100 ms ====
+stats          	302806469		8%
+IDLE           	2824757422		81%
+beta           	7903966		<1%
+hb             	2128847		<1%
+load           	316401351		9%
+alpha          	7895543		<1%
+sup            	1459744		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=304421097
+IDLE state=1 rt=2824757422
+alpha state=2 rt=7896865
+beta state=2 rt=7908090
+load state=2 rt=316546854
+hb state=2 rt=2131074
+sup state=2 rt=1461265
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=48653 ms ====
+stats          	306327995		8%
+IDLE           	2857212400		81%
+beta           	7994633		<1%
+hb             	2153318		<1%
+load           	320018527		9%
+alpha          	7986245		<1%
+sup            	1476492		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=307938818
+IDLE state=1 rt=2857212400
+alpha state=2 rt=7987567
+beta state=2 rt=7998757
+load state=2 rt=320164030
+hb state=2 rt=2155545
+sup state=2 rt=1478013
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=49206 ms ====
+stats          	309848059		8%
+IDLE           	2889665973		81%
+hb             	2177687		<1%
+beta           	8085423		<1%
+load           	323637705		9%
+alpha          	8077217		<1%
+sup            	1493189		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=311471078
+IDLE state=1 rt=2889665973
+alpha state=2 rt=8078539
+beta state=2 rt=8089562
+load state=2 rt=323780440
+hb state=2 rt=2179882
+sup state=2 rt=1494693
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=49761 ms ====
+stats          	313374954		8%
+IDLE           	2922266512		81%
+load           	327250368		9%
+beta           	8177549		<1%
+alpha          	8168074		<1%
+hb             	2204031		<1%
+sup            	1511271		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=314989946
+IDLE state=1 rt=2922266512
+beta state=2 rt=8181667
+alpha state=2 rt=8172181
+load state=2 rt=327538341
+hb state=2 rt=2204031
+sup state=2 rt=1511271
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=50316 ms ====
+stats          	316896540		8%
+IDLE           	2954718038		81%
+beta           	8268262		<1%
+alpha          	8258741		<1%
+load           	331010217		9%
+hb             	2228502		<1%
+sup            	1528019		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=318509690
+IDLE state=1 rt=2954718038
+beta state=2 rt=8272374
+load state=2 rt=331155720
+alpha state=2 rt=8262865
+hb state=2 rt=2228502
+sup state=2 rt=1528019
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=50869 ms ====
+stats          	320423769		8%
+IDLE           	2987163531		81%
+beta           	8358969		<1%
+load           	334629375		9%
+alpha          	8349452		<1%
+hb             	2252935		<1%
+sup            	1544750		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=322036250
+IDLE state=1 rt=2987163531
+beta state=2 rt=8363081
+load state=2 rt=334774832
+hb state=2 rt=2252935
+alpha state=2 rt=8353587
+sup state=2 rt=1544750
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=51422 ms ====
+stats          	323940501		8%
+IDLE           	3019625350		81%
+beta           	8449676		<1%
+load           	338244539		9%
+alpha          	8440319		<1%
+hb             	2277180		<1%
+sup            	1561396		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=325554170
+IDLE state=1 rt=3019625350
+beta state=2 rt=8453788
+load state=2 rt=338390042
+hb state=2 rt=2277180
+alpha state=2 rt=8444448
+sup state=2 rt=1561396
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=51975 ms ====
+stats          	327458738		8%
+IDLE           	3052083634		81%
+beta           	8540383		<1%
+load           	341861653		9%
+alpha          	8531026		<1%
+hb             	2301651		<1%
+sup            	1578144		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=329068728
+IDLE state=1 rt=3052083634
+beta state=2 rt=8544495
+load state=2 rt=342007156
+hb state=2 rt=2301651
+alpha state=2 rt=8535155
+sup state=2 rt=1578144
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=52528 ms ====
+stats          	330971042		8%
+IDLE           	3084545169		81%
+beta           	8631090		<1%
+load           	345480830		9%
+alpha          	8621733		<1%
+hb             	2326116		<1%
+sup            	1594892		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=332584072
+IDLE state=1 rt=3084545169
+load state=2 rt=345626333
+beta state=2 rt=8635214
+hb state=2 rt=2326116
+alpha state=2 rt=8625862
+sup state=2 rt=1594892
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=53083 ms ====
+stats          	334488366		8%
+IDLE           	3117146811		81%
+load           	349097979		9%
+beta           	8721809		<1%
+alpha          	8712440		<1%
+hb             	2350587		<1%
+sup            	1611640		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=336102378
+IDLE state=1 rt=3117146811
+beta state=2 rt=8725916
+hb state=2 rt=2350587
+alpha state=2 rt=8716569
+load state=2 rt=349386231
+sup state=2 rt=1611640
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=53638 ms ====
+stats          	338003285		8%
+IDLE           	3149605576		81%
+alpha          	8803147		<1%
+load           	352859868		9%
+beta           	8815569		<1%
+hb             	2375052		<1%
+sup            	1628388		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=339624702
+IDLE state=1 rt=3149605576
+beta state=2 rt=8816897
+hb state=2 rt=2375052
+alpha state=2 rt=8807271
+load state=2 rt=353002328
+sup state=2 rt=1628388
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=54191 ms ====
+stats          	341529434		8%
+IDLE           	3182058109		81%
+alpha          	8893849		<1%
+load           	356472976		9%
+beta           	8906277		<1%
+hb             	2399474		<1%
+sup            	1645119		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=343144627
+IDLE state=1 rt=3182058109
+beta state=2 rt=8907599
+hb state=2 rt=2399474
+load state=2 rt=356618498
+alpha state=2 rt=8897990
+sup state=2 rt=1645119
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=54744 ms ====
+stats          	345045085		8%
+IDLE           	3214518922		81%
+load           	360089886		9%
+alpha          	8984568		<1%
+beta           	8997232		<1%
+hb             	2423945		<1%
+sup            	1661867		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=346664030
+IDLE state=1 rt=3214518922
+beta state=2 rt=8998554
+hb state=2 rt=2423945
+load state=2 rt=360235362
+alpha state=2 rt=8988703
+sup state=2 rt=1661867
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=55297 ms ====
+stats          	348561294		8%
+IDLE           	3246976730		81%
+load           	363709034		9%
+alpha          	9075281		<1%
+beta           	9088096		<1%
+hb             	2448218		<1%
+sup            	1678496		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=350172099
+IDLE state=1 rt=3246976730
+beta state=2 rt=9089430
+load state=2 rt=363854554
+alpha state=2 rt=9079410
+hb state=2 rt=2450445
+sup state=2 rt=1680017
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=55850 ms ====
+stats          	352076738		8%
+IDLE           	3279437428		81%
+load           	367326210		9%
+alpha          	9165988		<1%
+beta           	9179028		<1%
+hb             	2472689		<1%
+sup            	1695244		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=353690064
+IDLE state=1 rt=3279437428
+beta state=2 rt=9180362
+load state=2 rt=367471732
+alpha state=2 rt=9170117
+hb state=2 rt=2474916
+sup state=2 rt=1696765
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=56405 ms ====
+stats          	355589232		8%
+IDLE           	3312046059		81%
+load           	370945390		9%
+alpha          	9256695		<1%
+hb             	2497058		<1%
+beta           	9270075		<1%
+sup            	1711941		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=357203405
+IDLE state=1 rt=3312046059
+alpha state=2 rt=9260824
+beta state=2 rt=9274214
+load state=2 rt=371233642
+hb state=2 rt=2499253
+sup state=2 rt=1713445
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=56960 ms ====
+stats          	359108970		8%
+IDLE           	3344504608		81%
+alpha          	9347525		<1%
+hb             	2521207		<1%
+beta           	9360867		<1%
+load           	374703547		9%
+sup            	1728519		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=360719557
+IDLE state=1 rt=3344504608
+alpha state=2 rt=9351681
+load state=2 rt=374849050
+beta state=2 rt=9364991
+hb state=2 rt=2523402
+sup state=2 rt=1730023
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=57513 ms ====
+stats          	362635199		8%
+IDLE           	3376952986		81%
+alpha          	9438224		<1%
+hb             	2545646		<1%
+load           	378320745		9%
+beta           	9451586		<1%
+sup            	1745250		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=364248173
+IDLE state=1 rt=3376952986
+alpha state=2 rt=9442348
+load state=2 rt=378463210
+beta state=2 rt=9455704
+hb state=2 rt=2547873
+sup state=2 rt=1746771
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=58066 ms ====
+stats          	366149845		8%
+IDLE           	3409415276		81%
+hb             	2570111		<1%
+alpha          	9528903		<1%
+load           	381936843		9%
+beta           	9542299		<1%
+sup            	1761998		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=367761682
+IDLE state=1 rt=3409415276
+load state=2 rt=382082346
+alpha state=2 rt=9533059
+beta state=2 rt=9546411
+hb state=2 rt=2572306
+sup state=2 rt=1763502
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=58619 ms ====
+stats          	369664773		8%
+IDLE           	3441876507		81%
+hb             	2594373		<1%
+load           	385554339		9%
+alpha          	9619808		<1%
+beta           	9633006		<1%
+sup            	1778644		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=371277767
+IDLE state=1 rt=3441876507
+load state=2 rt=385697527
+alpha state=2 rt=9623926
+beta state=2 rt=9637118
+hb state=2 rt=2596551
+sup state=2 rt=1780148
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=59172 ms ====
+stats          	373181154		8%
+IDLE           	3474335340		81%
+load           	389172136		9%
+hb             	2618838		<1%
+alpha          	9710521		<1%
+beta           	9723713		<1%
+sup            	1795392		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=374796002
+IDLE state=1 rt=3474335340
+load state=2 rt=389314665
+alpha state=2 rt=9714633
+beta state=2 rt=9727825
+hb state=2 rt=2621022
+sup state=2 rt=1796896
+Tmr Svc state=2 rt=2234
+A held by beta, B held by none
+max refresh gap=51 ms
+
+==== t=59727 ms ====
+stats          	376693198		6711%
+IDLE           	3505939359		62461%
+load           	392788325		6997%
+hb             	2643260		47%
+alpha          	9801199		174%
+beta           	9814420		174%
+sup            	1812123		32%
+Tmr Svc        	2234		<1%
+stats state=0 rt=378376365
+IDLE state=1 rt=3505939359
+alpha state=2 rt=9805311
+beta state=2 rt=9818532
+load state=2 rt=393079349
+hb state=2 rt=2645487
+sup state=2 rt=1813644
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=60283 ms ====
+stats          	380276832		833%
+IDLE           	3538399199		7751%
+alpha          	9891906		21%
+beta           	9905127		21%
+load           	396550996		868%
+hb             	2669958		5%
+sup            	1830392		4%
+Tmr Svc        	2234		<1%
+stats state=0 rt=381923334
+IDLE state=1 rt=3538399199
+alpha state=2 rt=9896018
+beta state=2 rt=9909234
+load state=2 rt=396693725
+hb state=2 rt=2669958
+sup state=2 rt=1830392
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=60836 ms ====
+stats          	383823040		449%
+IDLE           	3570829640		4178%
+alpha          	9982613		11%
+beta           	9995829		11%
+load           	400167382		468%
+hb             	2694423		3%
+sup            	1847140		2%
+Tmr Svc        	2234		<1%
+stats state=0 rt=385463557
+IDLE state=1 rt=3570829640
+alpha state=2 rt=9986725
+load state=2 rt=400312885
+beta state=2 rt=9999953
+hb state=2 rt=2694423
+sup state=2 rt=1847140
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=61389 ms ====
+stats          	387374652		309%
+IDLE           	3603255453		2876%
+alpha          	10073320		8%
+load           	403783551		322%
+beta           	10086548		8%
+hb             	2718845		2%
+sup            	1863871		1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=389022008
+IDLE state=1 rt=3603255453
+alpha state=2 rt=10077427
+load state=2 rt=403926020
+beta state=2 rt=10090666
+hb state=2 rt=2718845
+sup state=2 rt=1863871
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=61942 ms ====
+stats          	390935333		236%
+IDLE           	3635673943		2202%
+alpha          	10164022		6%
+load           	407397407		246%
+beta           	10177244		6%
+hb             	2743316		1%
+sup            	1880619		1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=392575320
+IDLE state=1 rt=3635673943
+load state=2 rt=407542910
+alpha state=2 rt=10168146
+beta state=2 rt=10181356
+hb state=2 rt=2743316
+sup state=2 rt=1880619
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=62495 ms ====
+stats          	394487106		192%
+IDLE           	3668096758		1790%
+load           	411016599		200%
+alpha          	10254741		5%
+beta           	10268113		5%
+hb             	2767589		1%
+sup            	1897248		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=396137125
+IDLE state=1 rt=3668096758
+load state=2 rt=411162057
+alpha state=2 rt=10258859
+beta state=2 rt=10272225
+hb state=2 rt=2767589
+sup state=2 rt=1897248
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=63050 ms ====
+stats          	398031277		162%
+IDLE           	3700663918		1510%
+alpha          	10345454		4%
+beta           	10358780		4%
+load           	414779233		169%
+hb             	2792060		1%
+sup            	1913996		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=399679659
+IDLE state=1 rt=3700663918
+alpha state=2 rt=10349566
+beta state=2 rt=10362892
+hb state=2 rt=2792060
+load state=2 rt=414924752
+sup state=2 rt=1913996
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=63605 ms ====
+stats          	401593870		140%
+IDLE           	3733083038		1310%
+alpha          	10436161		3%
+beta           	10449553		3%
+load           	418398410		146%
+hb             	2816429		<1%
+sup            	1930693		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=403243833
+IDLE state=1 rt=3733083038
+alpha state=2 rt=10440273
+hb state=2 rt=2816429
+beta state=2 rt=10453682
+load state=2 rt=418543930
+sup state=2 rt=1930693
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=64158 ms ====
+stats          	405159245		124%
+IDLE           	3765496124		1159%
+alpha          	10526991		3%
+beta           	10540350		3%
+load           	422013863		129%
+hb             	2840578		<1%
+sup            	1947271		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=406815097
+IDLE state=1 rt=3765496124
+alpha state=2 rt=10531103
+hb state=2 rt=2840578
+beta state=2 rt=10544474
+load state=2 rt=422156589
+sup state=2 rt=1947271
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=64711 ms ====
+stats          	408725493		112%
+IDLE           	3797908566		1042%
+alpha          	10617690		2%
+beta           	10631052		2%
+load           	425628245		116%
+hb             	2865017		<1%
+sup            	1964002		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=410375353
+IDLE state=1 rt=3797908566
+alpha state=2 rt=10621802
+hb state=2 rt=2865017
+load state=2 rt=425773765
+beta state=2 rt=10635193
+sup state=2 rt=1964002
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=65264 ms ====
+stats          	412287713		101%
+IDLE           	3830320744		947%
+alpha          	10708357		2%
+load           	429247423		106%
+beta           	10721771		2%
+hb             	2889482		<1%
+sup            	1980750		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=413938224
+IDLE state=1 rt=3830320744
+hb state=2 rt=2889482
+alpha state=2 rt=10712481
+load state=2 rt=429389883
+beta state=2 rt=10725906
+sup state=2 rt=1980750
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=65817 ms ====
+stats          	415850353		93%
+IDLE           	3862736823		869%
+alpha          	10799245		2%
+load           	432861839		97%
+beta           	10812484		2%
+hb             	2913744		<1%
+sup            	1997396		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=417480891
+IDLE state=1 rt=3862736823
+hb state=2 rt=2913744
+load state=2 rt=433007359
+alpha state=2 rt=10803386
+beta state=2 rt=10816613
+sup state=2 rt=1997396
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=66372 ms ====
+stats          	419384290		86%
+IDLE           	3895313640		804%
+alpha          	10891292		2%
+beta           	10903191		2%
+load           	436625154		90%
+hb             	2938209		<1%
+sup            	2014144		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=421020588
+IDLE state=1 rt=3895313640
+alpha state=2 rt=10894099
+beta state=2 rt=10907320
+load state=2 rt=436767688
+hb state=2 rt=2940393
+sup state=2 rt=2015648
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=66927 ms ====
+stats          	422931153		80%
+IDLE           	3927741933		749%
+alpha          	10982800		2%
+beta           	11000912		2%
+load           	440241577		84%
+hb             	2962631		<1%
+sup            	2030875		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=424560514
+IDLE state=1 rt=3927741933
+alpha state=2 rt=10985607
+beta state=2 rt=11005041
+load state=2 rt=440387097
+hb state=2 rt=2964858
+sup state=2 rt=2032396
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=67480 ms ====
+stats          	426470795		75%
+IDLE           	3960173353		702%
+alpha          	11074043		1%
+beta           	11096295		1%
+load           	443858940		78%
+hb             	2987102		<1%
+sup            	2047623		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=428102684
+IDLE state=1 rt=3960173353
+alpha state=2 rt=11076850
+beta state=2 rt=11100424
+load state=2 rt=444004460
+hb state=2 rt=2989329
+sup state=2 rt=2049144
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=68033 ms ====
+stats          	430015314		71%
+IDLE           	3992600453		661%
+alpha          	11165021		1%
+beta           	11189340		1%
+load           	447478353		74%
+hb             	3011567		<1%
+sup            	2064371		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=431646242
+IDLE state=1 rt=3992600453
+alpha state=2 rt=11167828
+beta state=2 rt=11193464
+load state=2 rt=447621079
+hb state=2 rt=3013794
+sup state=2 rt=2065892
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=68586 ms ====
+stats          	433562083		67%
+IDLE           	4025033196		625%
+alpha          	11255734		1%
+beta           	11280042		1%
+load           	451091916		70%
+hb             	3035989		<1%
+sup            	2081102		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=435193239
+IDLE state=1 rt=4025033196
+alpha state=2 rt=11258541
+load state=2 rt=451237436
+beta state=2 rt=11284183
+hb state=2 rt=3038216
+sup state=2 rt=2082623
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=69139 ms ====
+stats          	437112140		63%
+IDLE           	4057459521		593%
+load           	454709075		66%
+alpha          	11346459		1%
+beta           	11370744		1%
+hb             	3060460		<1%
+sup            	2097850		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=438750264
+IDLE state=1 rt=4057459521
+alpha state=2 rt=11349249
+load state=2 rt=454851535
+beta state=2 rt=11374879
+hb state=2 rt=3062687
+sup state=2 rt=2099371
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=69694 ms ====
+stats          	440646744		60%
+IDLE           	4090037290		565%
+alpha          	11437161		1%
+beta           	11461624		1%
+hb             	3084733		<1%
+load           	458470707		63%
+sup            	2114479		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=442280238
+IDLE state=1 rt=4090037290
+alpha state=2 rt=11441296
+beta state=2 rt=11465748
+load state=2 rt=458616166
+hb state=2 rt=3086960
+sup state=2 rt=2116000
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=70249 ms ====
+stats          	444196483		58%
+IDLE           	4122471323		540%
+alpha          	11527869		1%
+beta           	11552291		1%
+hb             	3109204		<1%
+load           	462087843		60%
+sup            	2131227		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=445823995
+IDLE state=1 rt=4122471323
+alpha state=2 rt=11531998
+beta state=2 rt=11556415
+load state=2 rt=462233346
+hb state=2 rt=3111431
+sup state=2 rt=2132748
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=70802 ms ====
+stats          	447739822		55%
+IDLE           	4154901880		517%
+alpha          	11618571		1%
+hb             	3133605		<1%
+beta           	11643044		1%
+load           	465707021		57%
+sup            	2147941		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=449370414
+IDLE state=1 rt=4154901880
+alpha state=2 rt=11622700
+beta state=2 rt=11647188
+load state=2 rt=465852524
+hb state=2 rt=3135800
+sup state=2 rt=2149445
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=71355 ms ====
+stats          	451285311		53%
+IDLE           	4187334834		496%
+hb             	3157754		<1%
+alpha          	11709386		1%
+beta           	11733873		1%
+load           	469322477		55%
+sup            	2164519		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=452912115
+IDLE state=1 rt=4187334834
+alpha state=2 rt=11713530
+beta state=2 rt=11737985
+load state=2 rt=469467980
+hb state=2 rt=3159949
+sup state=2 rt=2166023
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=71908 ms ====
+stats          	454823814		51%
+IDLE           	4219769115		478%
+alpha          	11800117		1%
+beta           	11824580		1%
+load           	472939633		53%
+hb             	3184388		<1%
+sup            	2182754		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=456460320
+IDLE state=1 rt=4219769115
+alpha state=2 rt=11804229
+beta state=2 rt=11828687
+load state=2 rt=473082368
+hb state=2 rt=3184388
+sup state=2 rt=2182754
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=72461 ms ====
+stats          	458374117		49%
+IDLE           	4252199779		460%
+alpha          	11890784		1%
+beta           	11915282		1%
+load           	476556043		51%
+hb             	3208853		<1%
+sup            	2199502		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=460005996
+IDLE state=1 rt=4252199779
+load state=2 rt=476701546
+alpha state=2 rt=11894908
+beta state=2 rt=11919406
+hb state=2 rt=3208853
+sup state=2 rt=2199502
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=73016 ms ====
+stats          	461908160		47%
+IDLE           	4284772818		445%
+beta           	12007329		1%
+alpha          	11984462		1%
+load           	480315978		49%
+hb             	3233115		<1%
+sup            	2216148		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=463544533
+IDLE state=1 rt=4284772818
+beta state=2 rt=12010119
+hb state=2 rt=3233115
+load state=2 rt=480461498
+alpha state=2 rt=11988603
+sup state=2 rt=2216148
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=73571 ms ====
+stats          	465463691		46%
+IDLE           	22231464		2%
+beta           	12098042		1%
+load           	483933845		48%
+alpha          	12075181		1%
+hb             	3257580		<1%
+sup            	2232896		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=467073196
+IDLE state=1 rt=22231464
+beta state=2 rt=12100832
+load state=2 rt=484079302
+hb state=2 rt=3257580
+alpha state=2 rt=12079316
+sup state=2 rt=2232896
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=74124 ms ====
+stats          	468975724		44%
+IDLE           	54696991		5%
+beta           	12188749		1%
+load           	487549986		46%
+alpha          	12165889		1%
+hb             	3282002		<1%
+sup            	2249627		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=470586334
+IDLE state=1 rt=54696991
+beta state=2 rt=12191539
+load state=2 rt=487695491
+hb state=2 rt=3282002
+alpha state=2 rt=12170018
+sup state=2 rt=2249627
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=74677 ms ====
+stats          	472485595		43%
+IDLE           	87162996		8%
+beta           	12279456		1%
+load           	491167122		45%
+alpha          	12256591		1%
+hb             	3306473		<1%
+sup            	2266375		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=474093149
+IDLE state=1 rt=87162996
+beta state=2 rt=12282246
+load state=2 rt=491312625
+hb state=2 rt=3306473
+alpha state=2 rt=12260720
+sup state=2 rt=2266375
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=75230 ms ====
+stats          	475993137		42%
+IDLE           	119629919		10%
+beta           	12370163		1%
+load           	494786306		44%
+alpha          	12347293		1%
+hb             	3330938		<1%
+sup            	2283123		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=477615613
+IDLE state=1 rt=119629919
+beta state=2 rt=12372953
+load state=2 rt=494931810
+hb state=2 rt=3330938
+alpha state=2 rt=12351422
+sup state=2 rt=2283123
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=75783 ms ====
+stats          	479528017		41%
+IDLE           	152072505		13%
+load           	498402451		42%
+beta           	12460882		1%
+alpha          	12437995		1%
+hb             	3355360		<1%
+sup            	2299854		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=481155894
+IDLE state=1 rt=152072505
+beta state=2 rt=12463655
+load state=2 rt=498545182
+hb state=2 rt=3355360
+alpha state=2 rt=12442124
+sup state=2 rt=2299854
+Tmr Svc state=2 rt=2234
+A held by alpha, B held by none
+max refresh gap=51 ms
+
+==== t=76338 ms ====
+stats          	483052907		40%
+IDLE           	184661710		15%
+beta           	12551567		1%
+alpha          	12528702		1%
+load           	502162096		41%
+hb             	3379831		<1%
+sup            	2316602		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=484674569
+IDLE state=1 rt=184661710
+beta state=2 rt=12555685
+hb state=2 rt=3379831
+alpha state=2 rt=12532826
+load state=2 rt=502304556
+sup state=2 rt=2316602
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=76893 ms ====
+stats          	486580307		39%
+IDLE           	217119432		17%
+beta           	12642442		1%
+alpha          	12619404		1%
+load           	505778206		40%
+hb             	3404104		<1%
+sup            	2333231		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=488198913
+IDLE state=1 rt=217119432
+hb state=2 rt=3404104
+beta state=2 rt=12646566
+load state=2 rt=505923726
+alpha state=2 rt=12623545
+sup state=2 rt=2333231
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=77446 ms ====
+stats          	490106251		38%
+IDLE           	249569353		19%
+beta           	12733104		<1%
+load           	509395386		39%
+alpha          	12710123		<1%
+hb             	3428575		<1%
+sup            	2349979		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=491731828
+IDLE state=1 rt=249569353
+beta state=2 rt=12737228
+load state=2 rt=509540860
+alpha state=2 rt=12714258
+hb state=2 rt=3430802
+sup state=2 rt=2351500
+Tmr Svc state=2 rt=2234
+A held by none, B held by none
+max refresh gap=51 ms
+
+==== t=77999 ms ====
+stats          	493638629		37%
+IDLE           	282011464		21%
+beta           	12823835		<1%
+load           	513014518		38%
+alpha          	12800836		<1%
+hb             	3452976		<1%
+sup            	2366693		<1%
+Tmr Svc        	2234		<1%
+stats state=0 rt=495265502
+IDLE state=1 rt=282011464
+beta state=2 rt=12827996

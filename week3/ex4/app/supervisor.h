@@ -9,6 +9,8 @@ extern EventGroupHandle_t supervisor_events;
 /* Bit assignments -- one per monitored task, up to SUPERVISOR_BITS. */
 #define SUPERVISOR_BIT_ALPHA   (1u << 0)
 #define SUPERVISOR_BIT_BETA    (1u << 1)
+#define SUPERVISOR_BIT_GAMMA   (1u << 2)   /* load_task */
+#define SUPERVISOR_BIT_DELTA   (1u << 3)   /* heartbeat_task */
 
 void supervisor_init(void);
 
