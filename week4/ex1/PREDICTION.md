@@ -34,8 +34,7 @@
    | **Tổng heap** | | **3344** |
 
    - So với `MAX_HEAP_BYTES` = 11264 bytes: còn dư 11264 − 3344 = 7920 bytes.
-   - Buffer tĩnh ngoài heap: 2 block UART 2064 + text stats 512 + bộ lọc 80
-     + bộ đếm 40 + handle TIM/I2C/DMA 256 = 2952 bytes.
+   - Buffer tĩnh ngoài heap: 2 block UART 2064 + bộ lọc 80 + bộ đếm 40 + handle TIM/I2C/DMA 256 = 2440 bytes.
    - Thêm text stats 512 bytes ở vùng tĩnh, SRAM còn 1904 bytes.
    
 3. Nếu task xử lý tạm thời chậm hơn ISR lấy mẫu (ví dụ do một task khác
